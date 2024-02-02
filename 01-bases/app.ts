@@ -1,8 +1,8 @@
+// Funciona anonima autoinvocada
+(() => {
 
-const msg: string  = 'Hola mundo!!!';
+  const a:number = 10;
 
-const hero = {
-  name: 'Iroman',
-  age: 45
-}
-console.log(hero.age);
+  console.log(a);
+
+})()
