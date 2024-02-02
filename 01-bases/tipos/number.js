@@ -1,8 +1,8 @@
 "use strict";
-(() => {
-    let heroes = 10;
+(function () {
+    var heroes = 10;
     console.log(heroes);
-    const villanos = 20;
+    var villanos = 20;
     if (heroes < villanos) {
         console.log('pierden los herores');
     }
@@ -10,5 +10,5 @@
         console.log('pierden los villanos');
     }
     heroes = Number('55A');
-    console.log({ heroes });
+    console.log({ heroes: heroes });
 })();
