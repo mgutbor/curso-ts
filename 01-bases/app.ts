@@ -1,4 +1,4 @@
 
-let msg:string  = 'Hola mundo';
+const msg : string  = 'Hola mundo';
 
 console.log(msg);
