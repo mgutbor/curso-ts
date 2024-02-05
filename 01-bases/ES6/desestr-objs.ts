@@ -23,6 +23,11 @@
 
   imprimirPoderHeroes(heroes);
   
+  const arrayHeroes: [string, boolean, number] = ['Superman', true, 125];
+
+  const [ , nombreSpiderman, nombreBatman ] = arrayHeroes;
+  
+  console.log(nombreSpiderman);
   
 
 })()

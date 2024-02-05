@@ -23,6 +23,9 @@ var __rest = (this && this.__rest) || function (s, e) {
         return console.log(resto.superman);
     };
     imprimirPoderHeroes(heroes);
+    const arrayHeroes = ['Superman', true, 125];
+    const [, nombreSpiderman, nombreBatman] = arrayHeroes;
+    console.log(nombreSpiderman);
 })();
 (() => {
     const nombre = 'Manuel';
