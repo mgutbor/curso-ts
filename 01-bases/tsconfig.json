@@ -109,7 +109,7 @@
   "exclude": [
     "no-transpilar/*.ts"
   ],
-  // "include": [
-  //   "transpilar/*.ts"
-  // ]
+  "include": [
+    "ES6"
+  ]
 }
