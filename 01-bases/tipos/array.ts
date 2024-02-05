@@ -9,7 +9,7 @@
   const heroes:string[] = ['Superman', 'Batman', 'Aquaman'];
 
   heroes.forEach( v => console.log(v.toUpperCase()));
-  
-  
+
+  numbersArray.forEach( v => console.log(v));
   
 })()
