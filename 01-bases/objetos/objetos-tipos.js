@@ -7,11 +7,7 @@
     };
     heroe = {
         nombre: 'Otro nombre',
-        // edad: 12,
         poderes: ['Ninguno'],
-        // getNombre(){
-        //   return this.nombre;
-        // }
     };
     console.log({ heroe: heroe });
 })();
