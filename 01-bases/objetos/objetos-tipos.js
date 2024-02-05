@@ -15,3 +15,4 @@
     };
     console.log({ heroe: heroe });
 })();
+//# sourceMappingURL=objetos-tipos.js.map

@@ -6,3 +6,4 @@
     var heroes = ['Superman', 'Batman', 'Aquaman'];
     heroes.forEach(function (v) { return console.log(v.toUpperCase()); });
 })();
+//# sourceMappingURL=array.js.map

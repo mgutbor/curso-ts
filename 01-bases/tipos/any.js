@@ -10,3 +10,4 @@
     console.log(existe);
     console.log(poder);
 })();
+//# sourceMappingURL=any.js.map

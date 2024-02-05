@@ -5,3 +5,4 @@
     esSuperMan = (esBatman) ? true : false;
     console.log({ esSuperMan: esSuperMan });
 })();
+//# sourceMappingURL=boolean.js.map

@@ -6,3 +6,4 @@
     var nombre = nombreCompleto('Manuel', 'GB');
     console.log({ nombre: nombre });
 })();
+//# sourceMappingURL=args-obligat.js.map

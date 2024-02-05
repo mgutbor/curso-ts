@@ -9,3 +9,4 @@
     var b = llamarSuperman();
     console.log(b);
 })();
+//# sourceMappingURL=void.js.map

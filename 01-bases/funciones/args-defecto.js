@@ -10,3 +10,4 @@
     var nombre = nombreCompleto('Manuel', 'gb', true);
     console.log({ nombre: nombre });
 })();
+//# sourceMappingURL=args-defecto.js.map

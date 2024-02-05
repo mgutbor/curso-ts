@@ -11,3 +11,4 @@
         poderes: ['Ninguno']
     };
 })();
+//# sourceMappingURL=objetos.js.map

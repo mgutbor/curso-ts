@@ -12,3 +12,4 @@
     heroes = Number('55A');
     console.log({ heroes: heroes });
 })();
+//# sourceMappingURL=number.js.map

@@ -15,3 +15,4 @@
     };
     console.log(heroe.getNombre());
 })();
+//# sourceMappingURL=objetos-metodos.js.map

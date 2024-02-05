@@ -30,3 +30,4 @@ var noHaceNada = function (numero, texto, booleano, arreglo) { };
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
 var noHaceNadaTampoco;
 noHaceNadaTampoco = noHaceNada;
+//# sourceMappingURL=_app.js.map

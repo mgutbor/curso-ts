@@ -10,3 +10,4 @@
     var superman = nombreCompleto('Clark', 'Kent', 'de', 'la', 'Pradera');
     console.log({ superman: superman });
 })();
+//# sourceMappingURL=args-rest.js.map

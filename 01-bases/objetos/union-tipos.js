@@ -12,3 +12,4 @@
     console.log(typeof miVariableCustom);
     console.log(miVariableCustom);
 })();
+//# sourceMappingURL=union-tipos.js.map
