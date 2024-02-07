@@ -23,6 +23,14 @@
       console.log('constructor Xmen llamado');
     }
 
+    get fullName(){
+      return `${this.name} - ${this.realName}`;
+    }
+
+    set fullName(name:string){
+      this.name = name;
+    }
+
     getFullNameDesdeXmen(){
       return `${this.name} ${this.realName}`;
     }
@@ -30,7 +38,12 @@
 
   const lobezno: Xmen = new Xmen('Wolverine', 'Logan', true);
 
-  console.log(lobezno.getFullNameDesdeXmen());
+  console.log(lobezno.fullName);
+
+  lobezno.fullName = 'Manolo';
+
+  console.log(lobezno.fullName);
+  
   
 
 })()
