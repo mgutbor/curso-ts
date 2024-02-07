@@ -21,7 +21,6 @@
     const printName = (character) => {
         console.log(character.name);
     };
-    printName(wolverine);
 })();
 (() => {
     class Heroe {
@@ -65,5 +64,25 @@
         }
     }
     const lobezno = new Xmen('Wolverine', 'Logan', true);
+})();
+(() => {
+    class Apocalipsis {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalipsis() {
+            if (!Apocalipsis.instance)
+                Apocalipsis.instance = new Apocalipsis('Apocalisis inside');
+            return Apocalipsis.instance;
+        }
+        changeName(name) {
+            this.name = name;
+        }
+    }
+    const apocalipsis1 = Apocalipsis.callApocalipsis();
+    const apocalipsis2 = Apocalipsis.callApocalipsis();
+    const apocalipsis3 = Apocalipsis.callApocalipsis();
+    apocalipsis1.changeName('Manolo');
+    console.log(apocalipsis1, apocalipsis2, apocalipsis3);
 })();
 //# sourceMappingURL=main.js.map
