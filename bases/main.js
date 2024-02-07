@@ -14,7 +14,29 @@
         }
     }
     Heroe.edadAprox = 37;
-    const superman = new Heroe('Superman', 'Marvel', 'Clark Kent');
-    console.log(Heroe.getEdadAprox());
+})();
+(() => {
+    class Heroe {
+        constructor(name, realName) {
+            this.name = name;
+            this.realName = realName;
+            console.log('constructor Heroe llamado');
+        }
+        getFullName() {
+            return `${this.name} ${this.realName}`;
+        }
+    }
+    class Xmen extends Heroe {
+        constructor(name, realName, isMutant) {
+            super(name, realName);
+            this.isMutant = isMutant;
+            console.log('constructor Xmen llamado');
+        }
+        getFullNameDesdeXmen() {
+            return `${this.name} ${this.realName}`;
+        }
+    }
+    const lobezno = new Xmen('Wolverine', 'Logan', true);
+    console.log(lobezno.getFullNameDesdeXmen());
 })();
 //# sourceMappingURL=main.js.map

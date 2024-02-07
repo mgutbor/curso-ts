@@ -19,9 +19,9 @@
 
   }
 
-  const superman: Heroe = new Heroe('Superman', 'Marvel', 'Clark Kent');
+  // const superman: Heroe = new Heroe('Superman', 'Marvel', 'Clark Kent');
 
-  console.log(Heroe.getEdadAprox());
+  // console.log(Heroe.getEdadAprox());
 
   // console.log(Heroe.edadAprox);
   
