@@ -8,7 +8,7 @@
         }
     }
     Heroe.edadAprox = 37;
-    const superman = new Heroe('Superman', 'Marvel');
+    const superman = new Heroe('Superman', 'Marvel', 'Clark Kent');
     console.log(superman);
 })();
 //# sourceMappingURL=main.js.map
