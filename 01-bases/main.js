@@ -28,6 +28,24 @@ var __rest = (this && this.__rest) || function (s, e) {
     console.log(nombreSpiderman);
 })();
 (() => {
+    const superman = {
+        nombre: 'Clark Kent',
+        arma: 'Fuerza'
+    };
+    const spiderman = {
+        nombre: 'Peter Parker',
+        arma: 'Telaraña'
+    };
+    const batman = {
+        nombre: 'Bruce Wayne',
+        arma: 'batseñal'
+    };
+    const heroes = [superman, spiderman, batman];
+    for (const heroe of heroes) {
+        console.log(heroe.nombre);
+    }
+})();
+(() => {
     const nombre = 'Manuel';
     const getname = () => {
         console.log('viejo getName');
