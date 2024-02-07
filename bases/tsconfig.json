@@ -110,6 +110,6 @@
     "no-transpilar/*.ts"
   ],
   "include": [
-    "ES6"
+    "clases"
   ]
 }
