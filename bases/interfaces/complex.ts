@@ -1,16 +1,16 @@
 (() => {
 
   interface Client {
-    name: string, 
-    age?: number,
-    address?: Address,
-    getFullAddress(id: number):void,
+    name: string; 
+    age?: number;
+    address?: Address;
+    getFullAddress(id: number):void;
   }
 
   interface Address {
-    id: number,
-    cp: number,
-    city: string,
+    id: number;
+    cp: number;
+    city: string;
   }
 
   const cliente1: Client = {
