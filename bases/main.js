@@ -13,6 +13,16 @@
             return this.nombre;
         },
     };
-    console.log(superman);
+})();
+(() => {
+    const cliente1 = {
+        name: 'Manuel',
+        age: 24,
+        address: {
+            id: 125,
+            cp: 43002,
+            city: 'Leganes'
+        }
+    };
 })();
 //# sourceMappingURL=main.js.map
