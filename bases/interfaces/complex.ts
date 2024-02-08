@@ -1,15 +1,16 @@
 (() => {
 
   interface Client {
-    name: string;
-    age?: number;
-    address?: Address
+    name: string, 
+    age?: number,
+    address?: Address,
+    getFullAddress(id: number):void,
   }
 
   interface Address {
-    id: number;
-    cp: number;
-    city: string;
+    id: number,
+    cp: number,
+    city: string,
   }
 
   const cliente1: Client = {
@@ -19,6 +20,9 @@
       id: 125,
       cp: 43002,
       city: 'Leganes'
+    },
+    getFullAddress(id: number){
+      return `${id} ${this.address?.id}`
     }
   }
 

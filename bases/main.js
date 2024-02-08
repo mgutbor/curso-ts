@@ -22,6 +22,10 @@
             id: 125,
             cp: 43002,
             city: 'Leganes'
+        },
+        getFullAddress(id) {
+            var _a;
+            return `${id} ${(_a = this.address) === null || _a === void 0 ? void 0 : _a.id}`;
         }
     };
 })();
