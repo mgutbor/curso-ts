@@ -1,13 +1,10 @@
-import { Hero as Heroe, Hero2, Hero3, Hero4 } from "./classes/Hero";
-import powers, {Power} from "./helpers/powers";
+import { Hero } from "./classes/Hero";
+// import { Hero as Heroe, Hero2, Hero3, Hero4 } from "./classes/Hero";
+// import powers, {Power} from "./helpers/powers";
 
-const Hero = 123;
+const hero = new Hero('Superman', 1, 23);
 
-const hero = new Heroe('Superman', 2, 23);
-
-console.log(hero);
-
-console.log(powers);
+console.log(hero.power);
 
 
 
